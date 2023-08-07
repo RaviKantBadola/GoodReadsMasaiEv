@@ -14,9 +14,9 @@ describe('Testing good reads web application', () => {
     //for clicking on sign in 
     cy.contains("Sign in").click();
     //for typeing email in input box
-    cy.get("#ap_email").type("ravi.rock7552@gmail.com");
+    cy.get("#ap_email").type("");  //put here your email
     //for typeing password in password input box
-    cy.get("#ap_password").type("9760557899");
+    cy.get("#ap_password").type("");   // put here your password 
     //validating sign in button color
     cy.get("#signInSubmit").should('have.css','background-color').and('eq','rgba(0, 0, 0, 0)');
     //click on sign in button 
