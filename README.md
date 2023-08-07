@@ -35,7 +35,7 @@ npx cypress run
 https://goodreadreport.netlify.app/
 ```
 
-### Note - i remove the email and password for the security perpose 
+### Note - I removed the email and password for the security purpose 
 
 # Thank you for visiting 
 
